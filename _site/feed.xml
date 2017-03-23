@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-25T12:59:04-06:00</updated><id>http://localhost:4000//</id><title type="html">Vinicius Guimaraes Goecks</title><subtitle>Webpage with information about me and my personal interest on intelligent systems.
+</subtitle><entry><title type="html">New website!</title><link href="http://localhost:4000/jekyll/update/2017/01/22/welcome-to-jekyll.html" rel="alternate" type="text/html" title="New website!" /><published>2017-01-22T13:26:56-06:00</published><updated>2017-01-22T13:26:56-06:00</updated><id>http://localhost:4000/jekyll/update/2017/01/22/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/22/welcome-to-jekyll.html">&lt;p&gt;Establishing my new website using Jekyll!&lt;/p&gt;
+
+&lt;p&gt;More info to be added soon.&lt;/p&gt;
+
+&lt;p&gt;Thanks for visiting!&lt;/p&gt;</content><summary type="html">Establishing my new website using Jekyll!</summary></entry></feed>
