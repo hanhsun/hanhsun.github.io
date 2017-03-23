@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Vinicius Guimaraes Goecks
-email: vinicius.goecks@tamu.edu
+title: Han-Hsun Lu (Jack)
+email: hanhsun.lu@tamu.edu
 description: > # this means to ignore newlines until "baseurl:"
   Webpage with information about me and my personal interest in intelligent systems.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username:  viniciusguigo
+github_username:  hanhsun
 #linkedin_username:  vinicius-guimaraes-goecks
 
 # Build settings
