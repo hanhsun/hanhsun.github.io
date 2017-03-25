@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-![profile](/img/home/jack.jpg "Yep, that's me!"){:width="200px"}
+![profile](/img/home/Jack_scotland.jpg "Yep, that's me!"){:width="200px"}
 
 Currently an Aerospace Engineering M.S. student working under Dr. John Valasek at the Texas A&M Vehicle Systems and Control Laboratory. He has his first M.S. in Engineering Science working with Dr. Jer-Nan Juang at Cheng Kung University in Taiwan. His primary technical areas of interest are linear and nonlinear system identification, control theory, dynamical modeling and simulation. He is currently heavily involved in UAV flight operations including mission planning, flight simulation, embedded systems development, mission ground control and UAV vehicle development.
 # Professional
