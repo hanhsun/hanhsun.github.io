@@ -24,4 +24,4 @@ permalink: /pub/
 
 # Test video
 
-[YouTube.Player videoID=M7lc1UVf-VE start=226 quality=large width=400 height=280 command=play/]
+[![Everything Is AWESOME](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Everything Is AWESOME")
