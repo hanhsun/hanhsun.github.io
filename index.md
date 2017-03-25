@@ -13,8 +13,8 @@ Currently an Aerospace Engineering M.S. student working under Dr. John Valasek a
 
 
 # Education
-**Master of Science** Texas A & M University, Aerospace Engineering
-**Master of Science** National Cheng Kung University, Engineering Science
+* **Master of Science** Texas A & M University, Aerospace Engineering
+* **Master of Science** National Cheng Kung University, Engineering Science
 
 # Contact me
 
