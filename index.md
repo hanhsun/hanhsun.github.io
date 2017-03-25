@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-![profile](/img/home/Jack_scotland.jpg "Yep, that's me!"){:width="200px"}
+![profile](/img/home/Jack_scotland.jpg "Yep, that's me!"){:width="400px"}
 
 Currently an Aerospace Engineering M.S. student working under Dr. John Valasek at the Texas A&M Vehicle Systems and Control Laboratory. He has his first M.S. in Engineering Science working with Dr. Jer-Nan Juang at Cheng Kung University in Taiwan. His primary technical areas of interest are linear and nonlinear system identification, control theory, dynamical modeling and simulation. He is currently heavily involved in UAV flight operations including mission planning, flight simulation, embedded systems development, mission ground control and UAV vehicle development.
 # Professional
@@ -10,6 +10,11 @@ Currently an Aerospace Engineering M.S. student working under Dr. John Valasek a
 [GitHub](https://github.com/viniciusguigo) |
 [Linkedin](https://www.linkedin.com/in/han-hsun-jack-lu-8228b864/)  
 [Open-Source Satellite Attitude and Control Testbed](https://github.com/lasr/lasr-lat)
+
+
+# Education
+**Master of Science** Texas A & M University, Aerospace Engineering
+**Master of Science** National Cheng Kung University, Engineering Science
 
 # Contact me
 
