@@ -1,8 +1,6 @@
 ---
-layout: post
+layout: home
 title: Publications
-date:
-categories: publications
 permalink: /pub/
 ---
 # Publications
