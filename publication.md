@@ -3,7 +3,6 @@ layout: page
 title: Publications
 permalink: /pub/
 ---
-# Publications
 
 ## Thesis
 
