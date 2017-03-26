@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 ---
 ![profile](/img/home/Jack_scotland.jpg "Yep, that's me!"){:width="400px"}
 
