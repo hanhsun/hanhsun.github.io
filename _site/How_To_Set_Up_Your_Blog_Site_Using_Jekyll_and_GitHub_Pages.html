@@ -1,0 +1,475 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>How to Set Up a Blog Site Using Jekyll and GitHub Pages</title>
+  <meta name="description" content="Since I set up this site using Jekyll and Github Pages, why not write a post? There is no hosting cost and it is easy to use. Here is a step by step guide to...">
+
+  <link rel="stylesheet" href="/Jekyll-Iris/assets/css/main.css">
+  <link rel="canonical" href="https://hanhsun.github.io//Jekyll-Iris/How_To_Set_Up_Your_Blog_Site_Using_Jekyll_and_GitHub_Pages">
+  <link rel="alternate" type="application/rss+xml" title="Han Hsun Lu" href="https://hanhsun.github.io//Jekyll-Iris/feed.xml">
+</head>
+
+
+  <body>
+
+    
+
+<header class="site-header sticky">
+	<div class="container">
+    <a class="site-title" href="/Jekyll-Iris/"><strong>Han Hsun Lu</strong></a>
+
+    <nav class="site-nav">
+        
+          
+        
+          
+          <a class="page-link button_outline" href="/Jekyll-Iris/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+    </nav>
+    </div>
+</header>
+
+
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+   <div class="post-title" style="background-image: url('/Jekyll-Iris/assets/images/bgImg6.jpg');
+">
+    <div class = "container">
+    <div class="title">How to Set Up a Blog Site Using Jekyll and GitHub Pages</div>
+    <div class = "post-social">
+    <!-- Share Buttons Start -->
+<div class='share'>
+  <ul class="social clearfix">
+    
+      <li class="rrssb-email">
+        <a href="mailto:?subject=How to Set Up a Blog Site Using Jekyll and GitHub Pages&amp;body=https://hanhsun.github.io//Jekyll-Iris/How_To_Set_Up_Your_Blog_Site_Using_Jekyll_and_GitHub_Pages" data-proofer-ignore title='email'>
+          <i class="icon fi-at-sign"></i>
+        </a>
+      </li>
+    
+    
+      <li class="rrssb-twitter">
+        <a href="https://twitter.com/share?url=https://hanhsun.github.io//Jekyll-Iris/How_To_Set_Up_Your_Blog_Site_Using_Jekyll_and_GitHub_Pages&amp;text=How to Set Up a Blog Site Using Jekyll and GitHub Pages"
+        class="popup">
+        <i class="icon fi-social-twitter"></i>
+        </a>
+      </li>
+    
+    
+      <li class="rrssb-facebook">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://hanhsun.github.io//Jekyll-Iris/How_To_Set_Up_Your_Blog_Site_Using_Jekyll_and_GitHub_Pages&amp;title=How to Set Up a Blog Site Using Jekyll and GitHub Pages" class="popup">
+        <i class="icon fi-social-facebook"></i>
+        </a>
+      </li>
+    
+    
+      <li class="rrssb-linkedin">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://hanhsun.github.io//Jekyll-Iris/How_To_Set_Up_Your_Blog_Site_Using_Jekyll_and_GitHub_Pages" class="popup">
+      <i class="icon fi-social-linkedin"></i>
+      </a>
+      </li>
+    
+    
+      <li class="rrssb-googleplus">
+        <a href="https://plus.google.com/share?url=https://hanhsun.github.io//Jekyll-Iris/How_To_Set_Up_Your_Blog_Site_Using_Jekyll_and_GitHub_Pages" class="popup">
+        <i class="icon fi-social-google-plus"></i>
+        </a>
+      </li>
+    
+    
+    
+    
+  </ul>
+</div>
+<!-- Share Buttons End -->
+
+    
+
+   </div>
+      <div class="post-meta">Oct 21, 2016 &nbsp; | &nbsp; 10 Min Read &nbsp; | &nbsp;
+       <span class="disqus-comment-count" data-disqus-identifier="How to Set Up a Blog Site Using Jekyll and GitHub Pages"></span>
+      </div>
+    </div>
+   </div>
+
+
+
+  <div class="post-content container" itemprop="articleBody">
+    <p>Since I set up this site using Jekyll and Github Pages, why not write a post? There is no hosting cost and it is easy to use. Here is a step by step guide to set up a Jekyll site using GitHub. It covers from the basic such as starting with a generic theme to deployment. We are using Jekyll Iris Theme as an example here because that is what I am familiar with the most. With this guide you will be able to quickly and easily have a blog ready to go!</p>
+
+<p><br /></p>
+
+<h2 id="step-1-setting-up-and-running-a-jekyll-site-locally">Step 1: Setting Up and Running a Jekyll Site Locally</h2>
+<p>You can clone Jekyll Iris theme by following the commands below, or you can find a theme you like at <a href="http://jekyllthemes.org/">Jekyll Theme website</a>
+<code class="highlighter-rouge">
+git clone http://github.com/XunaXu/Jekyll-Iris.git
+cd Jekyll-Iris
+gem install bundle (if you don't have bundle installed in your computer)
+bundle install
+jekyll serve
+</code>
+Open a web browser at this address: http://127.0.0.1:4000/Jekyll-Iris/.
+Note: I am using a Mac with 2.3.0 Ruby installed. You may need to <a href="https://www.ruby-lang.org/en/downloads/">download</a> or update Ruby.</p>
+
+<div class="expand-div">Having trouble? Have a look at my screen, it may help. <button class="toggle-button">expand</button> <div class="expandable" expanded="false">
+<img src="/Jekyll-Iris/assets/images/setup_jekyll.jpg" alt="Set up and run a jekyll theme" />
+</div></div>
+
+<p><br /></p>
+
+<h2 id="step-2-customising-the-site">Step 2: Customising The Site</h2>
+<p>Now you have a generic site up running, it is time to make it yours.</p>
+
+<ul>
+  <li>
+    <h3 id="update-configyml">Update _config.yml</h3>
+    <p>Open the jekyll iris project using an IDE or whatever way you prefer. There is _config.yml located at the top level of the directory. There are a list of variables in _config.yml we need to change. <strong>Any changes in this file requires to run ‘jekyll serve’ to take effect</strong>.</p>
+
+    <div class="expand-div">Having trouble? Have a look at my screen, it may help. <button class="toggle-button">expand</button> <div class="expandable" expanded="false">
+  <img src="/Jekyll-Iris/assets/images/config.jpg" alt="_config.yml file" />
+  </div></div>
+
+    <ul>
+      <li>
+        <h4 id="update-site-title">Update Site Title</h4>
+        <p><code class="highlighter-rouge">
+  title: Xuna Xu
+ </code>
+Update the title variable to your name or whatever you like. This will impact on the site title and also the site logo which is located at the right hand side of the navigation bar. Currently it displays as my name.</p>
+      </li>
+      <li>
+        <h4 id="update-contact-information">Update Contact Information</h4>
+        <p><code class="highlighter-rouge">
+  github    : http://github.com/xunaxu
+  twitter   : http://twitter.com/xuna_x
+  linkedin  : https://au.linkedin.com/in/xuna-xu-8a135094
+  avatar    : /assets/images/my_avatar.jpg
+ </code>
+  Social media accounts are your contact details in the footer, so people can connect with you via github, twitter and linkedin. To change the avatar, you need to replace my_avatar.jpg located at Jekyll-Iris/source/assets/images. The rest are not being used and are there only for house keeping.</p>
+      </li>
+      <li>
+        <h4 id="add-google-analytics">Add Google Analytics</h4>
+        <p><code class="highlighter-rouge">
+  # google analytics
+  google_analytics: UA-819232-**
+ </code>
+Here is a <a href="https://support.google.com/analytics/answer/1032385?hl=en">google analytics blog post</a> for getting your tracking id. Once you have the tracking id, you can replace the dummy value here.</p>
+      </li>
+      <li>
+        <h4 id="add-disqus-comment">Add Disqus Comment</h4>
+        <p><code class="highlighter-rouge">
+  # comments
+  comments: true
+  disqus_shortname: "xunaxu"
+ </code>
+If comments variable is set to false, the comment section is not displayed.
+Disqus_shortname is your disqus user name, you can register one from the <a href="https://disqus.com/profile/signup/">Disqus site</a></p>
+      </li>
+      <li>
+        <h4 id="add-mail-chimps-subscribe-form">Add Mail Chimps Subscribe Form</h4>
+        <p><code class="highlighter-rouge">
+  # subscribe
+  subscribe: true
+ </code>
+If subscribe variable is set to false, the subscribe form is not displayed.
+Here is the <a href="http://kb.mailchimp.com/lists/signup-forms/add-a-signup-form-to-your-website">blog post</a> from mail chimps for getting a subscribe form. Once you have the embeded form code, copy and paste into Jekyll-Iris/source/_includes/subscribe.html.</p>
+      </li>
+      <li>
+        <h4 id="configurate-which-social-media-account-can-share-your-blog-post">Configurate which social media account can share your blog post</h4>
+        <p><code class="highlighter-rouge">
+  #share
+  email-share: true
+  fb-share: true
+  twitter-share: true
+  linkedin-share: true
+  reddit-share: false
+  google-plus-share: true
+  tumblr-share: false
+  pinterest-share: false
+ </code>
+You can simply change the value to true or false, you can turn share icons on or off for your blog posts.</p>
+      </li>
+      <li>
+        <h4 id="configurate-how-many-posts-in-one-page">Configurate how many posts in one page</h4>
+        <p><code class="highlighter-rouge">
+  paginate: 2
+ </code>
+Currently it only displays two posts per page. If it is more than two posts in the post folder, ‘Order Post’ button will appear and navigate users to more posts. You can just change it to the suitable number for your site.</p>
+      </li>
+      <li>
+        <h4 id="configurate-the-dynamic-typing-text-at-home-page">Configurate the dynamic typing text at home page</h4>
+
+        <p><code class="highlighter-rouge">
+  lines:
+      - text: "&lt;span&gt;The best preparation for tomorrow is doing your best today.&lt;/span&gt;"
+      - text: "&lt;span&gt;Without documentation and test cases, my 'masterpiece' is my own graveyard. -xunaxu&lt;/span&gt;"
+ </code>
+Leave &lt;span&gt; in and replace any text you want, you can also add more lines too.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="update-color-theme">Update Color Theme</h3>
+    <p>Not everyone likes pink and purple. You certainly can change them. The file is located at Jekyll-Iris/source/_sass/_variables.scss
+You only need to run ‘jekyll serve’ for _config.yml. For others files such as sass files, all you need to do is to refresh the web browser to see changes.</p>
+
+    <div class="expand-div">Having trouble? Have a look at my screen, it may help. <button class="toggle-button">expand</button> <div class="expandable" expanded="false">
+  <img src="/Jekyll-Iris/assets/images/sass_variables.jpg" alt="Find variables.sass file in source folder" />
+  </div></div>
+
+    <p><code class="highlighter-rouge">
+  $primary-color: #7E57C2;
+  $secondary-color: #F48FB1;
+ </code>
+You can change primary and secondary color here. Primary color is purple, and secondary color is pink in this theme. Blue and green may go well too.</p>
+  </li>
+</ul>
+
+<h2 id="step-3-writing-your-first-post">Step 3: Writing Your First Post</h2>
+<p>You may be happy with the site and decide to write a first blog post, or you may want to customise more, useful tips down the bottom of the page may help you to get started.</p>
+
+<ol>
+  <li>
+    <h4 id="make-a-new-file">Make a new file</h4>
+    <p>Navigate to the _post folder located at Jekyll-Iris/source/_posts, then create a new file named in a format as ‘yyyy-mm-dd-fileName.md’ or ‘yyyy-mm-dd-fileName.markdown’, For example, ‘2016-10-21-how to set up a blog site using Jekyll and GitHub.md’. <strong>The date in the file name is important, can not be omitted</strong>.</p>
+
+    <div class="expand-div">Having trouble? Have a look at my screen, it may help. <button class="toggle-button">expand</button> <div class="expandable" expanded="false">
+ <img src="/Jekyll-Iris/assets/images/new_file.jpg" alt="Create a blog post in _post folder" />
+ </div></div>
+  </li>
+  <li>
+    <h4 id="all-posts-begin-with-this-exact-format">All posts begin with this exact format:</h4>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>     ---
+     layout: post
+     title: "how to blah"
+     permalink: "how to blah"
+     date: 2016-10-21
+     ---
+     your post content starts here!
+</code></pre>
+    </div>
+
+    <p>layout: You can refer any layout from Jekyll-Iris/source/_layout folder. In this theme, you only use the post layout.
+title: Post title
+permalink: This needs to be unique, it will become a part of the url
+date: Posts are sorted by the date in a descendant order.</p>
+  </li>
+  <li>
+    <h4 id="write-the-content">Write the content</h4>
+    <p>You can use markdown syntax and/or a normal html syntax to write blog content. Once you are familiar with markdown syntax, it is faster to write your posts compared with html syntax.</p>
+    <div class="expand-div">Having trouble? Have a look at my screen, it may help. <button class="toggle-button">expand</button> <div class="expandable" expanded="false">
+ <img src="/Jekyll-Iris/assets/images/syntax.jpg" alt="Markdown and html syntax as an example" />
+ </div></div>
+
+    <div class="hint"><strong> Useful Tips &gt; </strong>
+ <a href="https://guides.github.com/features/mastering-markdown/">A Markdown Guide - Mastering Markdown</a> is always handy.
+ </div>
+    <p>To highlight code syntax, please using Jekyll highlight below (no ‘\’ required ).
+ <code class="highlighter-rouge">\{\% highlight css %}
+ \{\% endhighlight %}
+</code></p>
+  </li>
+</ol>
+
+<p><br /></p>
+
+<h2 id="step-4-deployment">Step 4: Deployment</h2>
+
+<ol>
+  <li>
+    <h4 id="get-a-github-pages">Get a GitHub Pages</h4>
+    <p>Create a GitHub repository named yourUserName.github.io. Having trouble? Follow steps at <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+  </li>
+  <li>
+    <h4 id="update-variables-in-configyml">Update Variables in _config.yml</h4>
+    <p>Now you have a web page hosted at GitHub. There are a couple of more things we need to do before deploying your Jekyll site into the repository.  Back to _config.yml, we need to change two variables: url and baseurl. url should be your GitHub page as yourUserName.github.io. and baseurl should be empty. Your site will be hosted at this url ‘yourUserName.github.io’ after deployment.</p>
+  </li>
+  <li>
+    <h4 id="deploy-to-github">Deploy to GitHub</h4>
+    <p>Finally, it is deployment time. How exciting! The site will be published and we will find out if it s going to work or not. The deploy command lines are below, you just need to replace ‘yourAccountName’ in the repository address.
+ <code class="highlighter-rouge">cd _site
+ git init
+ git add --all
+ git commit -m "Deploy to GitHub Pages"
+ git push --force --quiet "https://github.com/yourAccountName/yourAccountName.github.io.git" master
+</code></p>
+  </li>
+</ol>
+
+<p>Congratulations! Your site should be live at this address, http://yourUserName.github.io.</p>
+
+<p><br /></p>
+
+<h2 id="step-5--getting-a-customised-domain">Step 5:  Getting a Customised Domain</h2>
+
+<p>Great news, you have spent absolutely zero money to own a blog site so far. You maybe happy with a generic github domain, as yourUserName.github.io, but you may want to have a domain ending with .com, .net, .org etc. Here is a youtube tutorial which helped me to set it up. <a href="https://www.youtube.com/watch?v=CJLb8UUIJPg">How to: Free Website Hosting + Custom Domain with Github Pages</a></p>
+
+<p>Don’t forget to update the url variable in _config.yml to whatever domain name you decided to buy.</p>
+
+<p><br /></p>
+
+<hr />
+
+<h3 id="useful-tips">Useful Tips</h3>
+<ul>
+  <li>
+    <p>Referring global variables from _config.yml in the source folder using site.variableName. Here is an example, delete any ‘\’ in the code.
+  <code class="highlighter-rouge">
+  \{\{ site.author.name }}
+ </code></p>
+  </li>
+  <li>
+    <p>Debugging: Printing out variables using inspect in Jekyll 3, here is an example, delete any ‘\’ in the code.
+  <code class="highlighter-rouge">
+  \{\{ page.url | inspect }}
+ </code></p>
+  </li>
+  <li>
+    <p>Commenting syntax, delete any ‘\’ in the code example below.
+  <code class="highlighter-rouge">
+  \{\% comment %}
+  blah blah blah
+  \{\% endcomment %}
+ </code></p>
+  </li>
+  <li>
+    <p><a href="https://jekyllrb.com/docs/quickstart/">The official Jekyll documentation</a> is highly recommend to have a look if you want to edit the source folder.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+  </div>
+
+</article>
+
+
+  <div class="post-nav container">
+    
+      <p></p>
+    
+
+    
+      <a class="next button_outline" href="/Jekyll-Iris/Markdown Syntax Example"><span>&raquo;&nbsp; Next: Markdown Syntax Example</span>
+      </a>
+    
+  </div>
+
+
+
+
+<!-- Comments Start -->
+
+  <div class="comments">
+  <div id="disqus_thread" class="container"></div> 
+
+<script>
+var disqus_config = function () {
+    this.page.url = 'https://hanhsun.github.io//Jekyll-Iris/How_To_Set_Up_Your_Blog_Site_Using_Jekyll_and_GitHub_Pages';
+    this.page.identifier = 'How to Set Up a Blog Site Using Jekyll and GitHub Pages';
+};
+
+(function() { 
+    var d = document, s = d.createElement('script');
+    s.src = '//'+'disqus_kaS8KBV6QD '+'.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+
+
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  </div>
+<!-- Comments End -->
+  
+
+
+    <footer class="site-footer">
+  <div class="container flex-container">
+    
+      <small>&copy;2017 All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
+   
+    <!-- Connect Social Icons Start -->
+	<ul class="social">
+	  <li><a href="http://github.com/xunaxu" target="_blank"><i class="icon fi-social-github"></i></a></li>
+	  <li><a href="https://au.linkedin.com/in/xuna-xu-8a135094" target="_blank"><i class="icon fi-social-linkedin"></i></a></li>
+	  <li><a href="http://twitter.com/xuna_x" target="_blank"><i class="icon fi-social-twitter "></i></a></li>
+	</ul>
+<!-- Connect Social Icons End -->
+
+
+  </div>
+</footer>
+
+    <script src="/Jekyll-Iris/assets/js/jquery-3.1.0.min.js"></script>
+<script src="/Jekyll-Iris/assets/js/typed.min.js"></script>
+
+  <script type="text/javascript">
+
+  var myQuotes =  new Array();
+  
+    myQuotes.push("<span>The best preparation for tomorrow is doing your best today.</span>");
+  
+    myQuotes.push("<span>Without documentation and test cases, my 'masterpiece' is my own graveyard. - xunaxu</span>");
+  
+
+    $(".intro-post-title").typed({
+      strings: myQuotes,
+      typeSpeed: 10,
+      backDelay: 5000,
+      startDelay: 200,
+      loop: true,
+      loopCount: false,
+      cursorChar: "|"
+    });
+
+    $(".toggle-button").click(function(){
+      if($(this).text() === 'expand'){
+        $(this).text('collapse');
+        $(this).parent('div').find('.expandable').attr( "expanded", "true" );
+      }else{
+        $(this).text('expand');
+        $(this).parent('div').find('.expandable').attr( "expanded", "false" );
+      }
+    });
+</script>
+
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-96926205-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+<script id="dsq-count-scr" src="//disqus_kaS8KBV6QD .disqus.com/count.js" async></script>
+
+
+    
+  </body>
+</html>
