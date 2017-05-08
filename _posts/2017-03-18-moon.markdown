@@ -1,0 +1,133 @@
+---
+layout: post
+title:  "Guidance, Navigation, and Control (GNC) to support a Lunar Base"
+date:   2017-03-18 11:42:42 -0600
+categories: moon
+use_math: true
+---
+Howdy, everyone!
+
+During this last week of March 2017 I will be participating on the
+[Caltech Space Challenge](http://www.spacechallenge.caltech.edu/). I'm pretty
+excited and looking forward to meet everyone there!
+
+So, since we are designing a lunar base to work as a launch and supply station for deep
+space missions (the **Lunarport**, you can read more [on the website](http://www.spacechallenge.caltech.edu/description)),
+I will review some of the recommended readings by Caltech.
+
+<a name="contents"></a>
+**Table of Contents:**
+- [Orbital Transfers](#orbital)
+- [Entry, Descent, and Landing](#edl)
+- [References](#refs)
+
+<!-- 1. R. Biesbroek and G. Janin, **“Ways to the Moon?,”** ESA Bull., vol. 103, pp. 92–99, 2000. -->
+
+<a name="orbital"></a>
+## Orbital Transfers
+[Back to Table of Contents](#contents)
+
+The first paper to be reviewed is **“Ways to the Moon?,”** by R. Biesbroek and G. Janin, published in the ESA Bulletin in 2000 [1].  
+
+The authors highlighted early missions to the Moon. It all started with the Luna Soviet missions in 1959 (Luna-1 through Luna-24). Luna-2 became the first spacecraft to hit another world (physically and intentionally - Figure 1).  
+
+<!-- Image of the Luna-2 Mission Profile -->
+<p align="center">
+  <img src="/img/moon/luna-2.png" alt="Image of the Luna-2 Mission Profile" width="450px"/>
+</p>
+<p style="text-align: center;">
+  <b>Figure 1.</b> Image of the Luna-2 Mission Profile. Credits: [1].
+</p>
+
+Then the USA launched several unmanned missions after 1962, reaching its peak with the Apollo Programme (Figure 2), when in 1969 Apollo-11 became the first manned spacecraft to land in another world. All these missions used direct orbit transfers to the Moon, while four more spacecrafts in the 1990s used alternative trajectories to reduce the Delta-V requirements.
+
+<!-- Image of the Apollo Mission Profile -->
+<p align="center">
+  <img src="/img/moon/apollo.png" alt="Image of the Apollo Mission Profile" width="600px"/>
+</p>
+<p style="text-align: center;">
+  <b>Figure 2.</b> Image of the Apollo Mission Profile. Credits: [1].
+</p>
+
+ESA (European Space Agency) has been developing studies for Lunar missions since the 1980s. The most accepted theory about the origin of Moon suggests it was formed after a heavy celestial body collided with Earth, causing a partial ejection of its matter. Thus, ESA understands that going to the Moon is just a natural continuation of the exploration of planet Earth. It even proposed in 1994 a four-phase lunar programme:
+
+  - Phase-1: Lunar robotic explorer
+  - Phase-2: Permanent robotic presence
+  - Phase-3: First use of lunar resources
+  - Phase-4: Lunar human outpost.  
+
+By the date the paper was released (2000), the closest mission to support a Lunar base designed by ESA was EuroMoon 2000. It was an initiative to perform a soft landing on the lunar South Pole Peak of Eternal Light, a place continuously illuminated by the Sun (maybe close to the Shackleton Crater Ridge? Not specified in the paper). The project was canceled in 1998 following an ESA Council decision.
+
+The design of an orbital transfer from Earth to Moon is part of any lunar mission. This transfer can be classified in direct (fast but expensive) or indirect (slow but cost-effective).  
+
+**Direct transfers** were used in the 1960s and 80s. It begins with the spacecraft in a parking orbit around Earth, then the apogee is raised to the Moon's distance or higher by a Translunar Injection, then another Delta-V has to be applied so the spacecraft can be captured by the Moon and orbit around it. Figure 3 illustrates the process.
+
+<!-- Image of the Direct Transfer -->
+<p align="center">
+  <img src="/img/moon/direct.png" alt="Image of the Direct Transfer" width="400px"/>
+</p>
+<p style="text-align: center;">
+  <b>Figure 3.</b> Direct transfer from the Earth to the Moon. Credits: [1].
+</p>
+
+The launch is a major part of the cost of any space mission. The higher Delta-V required for a mission, the higher the amount of propellant required, the more expensive the mission. One of the solutions is to reduce the mass of the spacecraft and share the launch/rocket with another mission ('piggy-back' with a rich passenger). Another solution is to use **Indirect transfers**, where energy is stolen from other celestial bodies on the Lunar Orbit Injection, reducing the total Delta-V required for the mission. This is possible through Weak Stability Boundary (WSB) transfers, where apogee maneuvers are provided by perturbations from Sun's gravity and not the main-engine burn. WSB regions are located around the Lagrangian points. Small maneuvers there can drastically change lunar arrival conditions. This transfer was first utilized by the Japanese spacecraft Hiten and it can be better illustrated by Figure 4.
+
+<!-- Image of the WSB -->
+<p align="center">
+  <img src="/img/moon/wsb.png" alt="Image of the WSB" width="450px"/>
+</p>
+<p style="text-align: center;">
+  <b>Figure 4.</b> Example of Weak Stability Boundary (WSB) transfers. Blue line is Moon's orbit. Red line is the spacecraft's orbit, with the Earth in the Center. Credits: [1].
+</p>
+
+Concluding this paper, future missions to the Moon will use different trajectories when compared to the missions designed in the 1960s. Weak Stability Boundary (WSB) transfers are slow but can reduce the Delta-V requirements and adds the possibility of having all types of lunar orbits, not possible with the classical approaches.
+
+<a name="edl"></a>
+## Entry, Descent, and Landing
+[Back to Table of Contents](#contents)
+
+The second paper of the recommended readings to be reviewed is **“The Mars Landing Approach: Getting Large Payloads to the Surface of the Red Planet,”** by N. Atkinson, published at Universe Today in 2007. Even though the paper is about entry, descent, and landing on Mars, still offers valuable lessons for any lunar mission design.
+
+The author highlights that landing on Mars is not as straightforward as many people think. Of course, all the experience we had in Apollo and other robotic missions in Mars were relevant, but humankind is still not able to land humans or heavier payloads on the surface of the red planet.
+
+Main challenges include the low-density atmosphere of Mars (around 100 less than Earth's) and requirements for the size of the spacecraft. It estimates that a mission to Mars might required 6 times more mass than previous manned Apollo missions. Current thruster technology doesn't allows us to land large payloads on Mars. It gives us 90 seconds to slow down from Mach 5 to Mach 1, then it is still necessary to transform the spacecraft to a lander, slow it down and maneuver to the landing site. While large airbags are a viable solution for rovers or small spacecrafts, they might not be able to land heavy masses or humans on Mars. In addition, the thin atmosphere interferes with the thrusters when used at high-speeds and winds add uncertainty to the maneuvers.
+
+Currently, the most promising solution is the Sky Crane maneuver (Figure 5). After slowing down the whole spacecraft using parachutes and heat shields, the core payload is detached. An upper-level small spacecraft attached to the top of the payload fire thrusters then lowers the it to the surface on a crane-like descent/landing maneuver. This [video](https://www.youtube.com/watch?v=p1WX0CATyn8) illustrates the process.
+
+<!-- Image of the Sky Crane -->
+<p align="center">
+  <img src="/img/moon/sky_crane.jpg" alt="Image of the Sky Crane" width="500px"/>
+</p>
+<p style="text-align: center;">
+  <b>Figure 5.</b> Sky Crane maneuver for soft landing developed by the Mars Science Laboratory (MSL). Credits: MSL/NASA.
+</p>
+
+Another possible solution is the development of supersonic decelerators, like the Hypercone shown in Figure 6. The Hypercone is a quick inflatable toroid structure with a membrane in a conical shape that would decelerate the spacecraft from Mach 5 to under Mach 1. The spacecraft still needs some sort of landing thrusters or legged structure, similar to the Apollo lander, for the final touchdown.
+
+<!-- Image of the Hypercone -->
+<p align="center">
+  <img src="/img/moon/hypercone.jpg" alt="Image of the Hypercone" width="600px"/>
+</p>
+<p style="text-align: center;">
+  <b>Figure 6.</b> The Hypercone Supersonic Decelerator, in theory, able to decelerate a spacecraft from Mach 5 to under Mach 1. Credits: NASA.
+</p>
+
+To conclude the paper, the author also mentions that a future solution would be the development of a space elevator on Mars to transfer payloads from orbit to the surface.
+
+---
+
+<!-- REFERENCES -->
+
+<a name="refs"></a>
+## References
+[Back to Table of Contents](#contents)
+
+[1] R. Biesbroek and G. Janin, **“Ways to the Moon?,”** ESA Bull., vol. 103, pp. 92–99, 2000.  
+
+[2] N. Atkinson, **“The Mars Landing Approach: Getting Large Payloads to the Surface of the Red Planet,”** Universe Today, 2007.  
+
+[3] P. D. Spudis, **“The Moon : Port of Entry to Cislunar Space,”** in Toward a Theory of Spacepower, 2011, pp. 241–251.  
+
+[4] M. Loucks, J. Carrico, T. Carrico, and C. Deiterich, **“A Comparison of Lunar Landing Trajectory Strategies Using Numerical Simulations,”** Int. Lunar Conf., no. February, 2005.  
+
+[5] S. Melloni, M. Mammarella, J. Gil-Fernández, and M. Matellano, Pablo Colmenarejo Homeister, **“GNC Solutions for Next-Moon Lunar Lander Mission,”** Int. Symp. Sp. Flight Dyn., no. 1, pp. 2004–2006, 2005.
