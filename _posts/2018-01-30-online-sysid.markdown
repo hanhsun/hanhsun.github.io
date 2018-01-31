@@ -26,6 +26,10 @@ The final version of the system is capable of identifying and modifying vehicle 
 * Designing a user friendly interface to show the identified model on the Ground Control Station (GCS).
 * Real-time calculating and updating vehicle dynamic models for flight control.
 
+A snapshot of the communication GUI is shown in Figure 1
+![Markdowm Image](/assets/images/Project/Clarkview.png)
+<figcaption class="caption">Figure 1</figcaption>
+
 ## More Info
 More information on the system I developed can be found in my [SciTech 2018 paper](\assets\doc\Online_SysID_Scitech_2018.pdf).
 
