@@ -15,21 +15,18 @@ externalLink: false
 
 ![Screenshot](/assets/images/jack_cub.jpg)
 
-Example of project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
+## In a Nutshell
+The goal of this project is to develop the capability of performing online system identification using Commercial-Off-The-Shelf (COTS) products on a Small scale Unmanned Aircraft System (UAS).
 
----
+The final version of the system is capable of identifying and modifying vehicle state-space models while the UAV is in the air. Different inputs were tested and multiple flight models were identified using the system.  
 
-What has inside?
+## Key Challenges
+* Porting all the **Matlab** system identification code to a **Python**.
+* Building a customized data acquisition system that supports enough sensors at a high frequency. [DFTI](https://tamu-vscl.github.io/dfti/index.html) was developed and used.
+* Designing a user friendly interface to show the identified model on the Ground Control Station (GCS).
+* Real-time calculating and updating vehicle dynamic models for flight control.
 
-- Gulp
-- BrowserSync
-- Stylus
-- SVG
-- Travis
-- No JS
-- [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F)
+## More Info
+More information on the system I developed can be found in my [SciTech 2018 paper](\assets\doc\Online_SysID_Scitech_2018.pdf).
 
----
-
-[Check it out](http://sergiokopplin.github.io/indigo/) here.
-If you need some help, just [tell me](http://github.com/sergiokopplin/indigo/issues).
+Also feel free to contact me via email!

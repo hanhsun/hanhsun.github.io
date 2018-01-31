@@ -1,7 +1,7 @@
 ---
 title: "Precision Agriculture"
 layout: post
-date: 2016-10-30 21:10
+date: 2016-06-30 21:10
 tag: SUAS
 image: /assets/images/supercub.png
 headerImage: false
@@ -16,4 +16,4 @@ externalLink: false
 ![Screenshot](/assets/images/grouppic1.jpg)
 
 ## In a Nutshell
-This project was
+This project was 
