@@ -3,7 +3,7 @@ title: "Precision Agriculture"
 layout: post
 date: 2016-10-30 21:10
 tag: SUAS
-image: /assets/images/supercub.png
+image: /assets/images/Project/supercub.png
 headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
@@ -13,7 +13,7 @@ author: jacklu
 externalLink: false
 ---
 
-![Screenshot](/assets/images/grouppic1.jpg)
+![Screenshot](/assets/images/Project/grouppic1.jpg)
 
 ## In a Nutshell
 This project was

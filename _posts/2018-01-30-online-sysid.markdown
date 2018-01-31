@@ -2,8 +2,8 @@
 title: "Online Near Real-Time System Identification on a Supercub SUAS"
 layout: post
 date: 2018-01-30 22:10
-tag: Real-Time, SUAS, Modeling
-image: /assets/images/jack_cub.jpg
+tag: Real-Time Modeling
+image: /assets/images/Project/jack_cub.jpg
 headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
@@ -13,7 +13,7 @@ author: jacklu
 externalLink: false
 ---
 
-![Screenshot](/assets/images/jack_cub.jpg)
+![Screenshot](/assets/images/Project/jack_cub.jpg)
 
 ## In a Nutshell
 The goal of this project is to develop the capability of performing online system identification using Commercial-Off-The-Shelf (COTS) products on a Small scale Unmanned Aircraft System (UAS).

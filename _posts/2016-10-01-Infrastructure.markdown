@@ -1,5 +1,5 @@
 ---
-title: "Precision Agriculture"
+title: "Infrastructure Assessment "
 layout: post
 date: 2016-06-30 21:10
 tag: SUAS
@@ -13,7 +13,7 @@ author: jacklu
 externalLink: false
 ---
 
-![Screenshot](/assets/images/grouppic1.jpg)
+![Screenshot](/assets/images/Project/Oil_rig.png)
 
 ## In a Nutshell
-This project was 
+Still Under Construction...
