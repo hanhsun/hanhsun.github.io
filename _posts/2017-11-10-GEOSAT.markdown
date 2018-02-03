@@ -62,7 +62,7 @@ From my past experience, with our current system Precision Agriculture using UAS
 - Closing the loop on image analysis for possible mission adjustments in-flight.
 
 <div class="breaker"></div>
-## future
+## Future
 <p align="center">
   <img src="http://hanhsun.github.io/assets/images/Project/future.png">
 </p>
