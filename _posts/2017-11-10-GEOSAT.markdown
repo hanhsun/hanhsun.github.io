@@ -48,16 +48,22 @@ This was a seminar talk I presented at an invited session at [Texas A&M GEOSAT](
     </div>
 </div>
 
-<div class="breaker"></div>
-
 The scientific results were promosing, and the results from my group's previous work that were published are listed:
 - [Unmanned Aerial Vehicles for High-Throughput Phenotyping and Agronomic Research-2016](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0159781)
 - [Multispectral and DSLR sensors for assessing crop stress in corn and cotton using fixed-wing unmanned air systems-2016](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9866/1/Multispectral-and-DSLR-sensors-for-assessing-crop-stress-in-corn/10.1117/12.2228894.short?SSO=1)
 - [Development and testing of a customized low-cost unmanned aircraft system based on multispectral and thermal sensing for precision agriculture applications-2017](http://ieeexplore.ieee.org/abstract/document/7991494/)
+<div class="breaker"></div>
 
 ## Challenges
-- **Reduced data analysis time** to provide in-flight feedback on image quality
-- Environmental feedback and capability to
+From my past experience, with our current system Precision Agriculture using UAS as an aiding tool is indeed **feasible**, however in order to enhance the capabilities, the following challenges needs to be addressed:
 
-## Future
-From my past experience, with our current system Precision Agriculture using UAS as an aiding tool is indeed **feasible**,
+- **Reduced data analysis time** on image quality.
+- Real time environmental feedback to incorporate wind and lighting issues during flight.
+- Closing the loop on image analysis for possible mission adjustments in-flight.
+
+<div class="breaker"></div>
+## future
+<p align="center">
+  <img src="http://hanhsun.github.io/assets/images/Project/future.png">
+</p>
+<figcaption class="caption">Courtesy Vinicius Goecks</figcaption>
