@@ -28,7 +28,7 @@ This was a seminar talk I presented at an invited session at [Texas A&M GEOSAT](
 ## Past-and-Current
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="hanhsun.github.io/assets/images/Blog/current.png" alt="Alt Text">
+        <img class="image" src="http://hanhsun.github.io/assets/images/Blog/current.png" alt="Alt Text">
         <figcaption class="caption">Courtesy Vinicius Goecks</figcaption>
     </div>
 

@@ -29,7 +29,7 @@ Here is an example of the single blade six mass coupled bending-twisting simulat
 
 
 <p align="center">
-  <img src="hanhsun.github.io/assets/images/Project/SixMassSinglebladesim.gif">
+  <img src="http://hanhsun.github.io/assets/images/Project/SixMassSinglebladesim.gif">
 </p>
 
 ## Key Challenges
