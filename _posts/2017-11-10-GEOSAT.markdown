@@ -13,7 +13,9 @@ author: jacklu
 description: Markdown summary with different options
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
-![Screenshot](/assets/images/Blog/jack_geosat.jpg)
+<p align="center">
+  <img src="http://hanhsun.github.io/assets/images/Blog/jack_geosat.jpg">
+</p>
 <figcaption class="caption">Photo by Rachel Holanda</figcaption>
 
 This was a seminar talk I presented at an invited session at [Texas A&M GEOSAT](https://geosat.tamu.edu/). In the one hour talk, I talked about the past, current, and future of conducting earth science related research using the power of UAVs. [Here's](https://geosat.tamu.edu/2017/11/02/seminar-recap-jack-lu-shows-us-that-mapping-crop-development-with-multiple-simultaneously-running-autonomous-vehicles-is-no-easy-feat/) the public release on talk if you're interested in it.

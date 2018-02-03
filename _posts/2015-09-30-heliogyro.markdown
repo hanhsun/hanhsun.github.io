@@ -14,8 +14,9 @@ category: project
 author: jacklu
 externalLink: false
 ---
-
-![Screenshot](/assets/images/Project/heliogyro_solar_pressure.png)
+<p align="center">
+  <img src="http://hanhsun.github.io/assets/images/Project/heliogyro_solar_pressure.png">
+</p>
 <figcaption class="caption">Coupled bending-twisting model with solar pressure</figcaption>
 
 ## In a Nutshell
@@ -24,9 +25,6 @@ The project focused on a solar sailing concept using solar pressure as main prop
 I analyzed an envelope of stability and applied model based predictive control with root piezocomposite active twist controllers to control the flexible blade using Matlab/Simulink. The simulation showed that root twist controllers are feasible of stabilizing a flexible blade while providing good performance.
 
 Here is an example of the single blade six mass coupled bending-twisting simulation:
-
-![Screenshot](/assets/images/Project/SixMassSinglebladesim.gif)
-
 
 <p align="center">
   <img src="http://hanhsun.github.io/assets/images/Project/SixMassSinglebladesim.gif">
