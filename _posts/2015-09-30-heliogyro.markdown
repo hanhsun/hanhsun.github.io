@@ -1,5 +1,5 @@
 ---
-title: "Precision Agriculture"
+title: "Heliogyro Solar Sail"
 layout: post
 date: 2015-09-30 21:10
 tag:
@@ -16,9 +16,21 @@ externalLink: false
 ---
 
 ![Screenshot](/assets/images/Project/heliogyro_solar_pressure.png)
+<figcaption class="caption">Coupled bending-twisting model with solar pressure</figcaption>
 
 ## In a Nutshell
-The overall goal of this project is to generate data necessary for effective utilization of UAS-based imaging techniques for crop production and weed management applications. UAS can be equipped to include multi-spectral sensors (3 to 4 bands in the visible and near-infrared/NIR range), hyperspectral sensors (Headwall’s Standard Micro-Hyperspec VNIR 380-1000 nm spectral range), thermal sensors and LIDAR (Light Detection And Ranging), among others. These sensors have a multitude of applications, in areas such as soil, crop, water and weed management in agriculture.
+The project focused on a solar sailing concept using solar pressure as main propulsion. I was part of the Structural Dynamics group at NASA Langley (LaRC) group that worked on the vehicle simulation and I developed a discrete time model for the flexible beam dynamics and applied linear system identification to analyze the mode shapes of the spacecraft.
+
+I analyzed an envelope of stability and applied model based predictive control with root piezocomposite active twist controllers to control the flexible blade using Matlab/Simulink. The simulation showed that root twist controllers are feasible of stabilizing a flexible blade while providing good performance.
+
+Here is an example of the single blade six mass coupled bending-twisting simulation:
+
+![Screenshot](/assets/images/Project/SixMassSinglebladesim.gif)
+
+
+<p align="center">
+  <img src="hanhsun.github.io/assets/images/Project/SixMassSinglebladesim.gif">
+</p>
 
 ## Key Challenges
 * Imaging mission planning incorporating sensor settings
