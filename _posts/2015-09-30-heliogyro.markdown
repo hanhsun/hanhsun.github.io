@@ -31,9 +31,12 @@ Here is an example of the single blade six mass coupled bending-twisting simulat
 </p>
 
 ## Key Challenges
-* Imaging mission planning incorporating sensor settings
-* Quantification of the growth and development of field crops as affected by soil, irrigation and crop management strategies
-* Increasing **reliability** of the collected image quality through image pre-processing and image post processing
+* Deriving the coupled flexible structural equations.
+* Analyzing the effect of solar pressure on the coupled structure and specifying the dynamic modal changes associated to the structure deformation.
+* Identifying a linearized model for the flexible nonlinear structure.
+* Applying Model Predictive Control (MPC) to stabilize the flexible beam.
 
 ## More Info
-More information on the system I developed can be found in my [Development and testing of a customized low-cost unmanned aircraft system based on multispectral and thermal sensing for precision agriculture applications-2017](http://ieeexplore.ieee.org/abstract/document/7991494/) paper.
+More information on this work can be found in my publications
+- [*Challenges Associated with System Identification and Control of a Heliogyro Membrane Blade*](https://link.springer.com/chapter/10.1007/978-3-642-34907-2_43)
+- [*Adaptive Control of a Heliogyro Membrane Blade*](http://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?2014ESASP.727E.186L&amp;data_type=PDF_HIGH&amp;whole_paper=YES&amp;type=PRINTER&amp;filetype=.pdf)

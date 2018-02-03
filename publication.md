@@ -21,7 +21,7 @@ permalink: /publications/index.html
 
 1. Juang, J. N., **Lu, H. H.**, Horta, L. G., & Wilkie, W. K. (2014). [*Challenges Associated with System Identification and Control of a Heliogyro Membrane Blade*](https://link.springer.com/chapter/10.1007/978-3-642-34907-2_43). In Advances in Solar Sailing (pp. 705-716). Springer Berlin Heidelberg.
 
-1. **Lu, H. H.**, Juang, J. N., Horta, L. G., & Keats Wilkie, W. (2014, June). *Adaptive Control of a Heliogyro Membrane Blade*. In 13th European Conference on Spacecraft Structures, Materials & Environmental Testing (Vol. 727).
+1. **Lu, H. H.**, Juang, J. N., Horta, L. G., & Keats Wilkie, W. (2014, June). [*Adaptive Control of a Heliogyro Membrane Blade*](http://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?2014ESASP.727E.186L&amp;data_type=PDF_HIGH&amp;whole_paper=YES&amp;type=PRINTER&amp;filetype=.pdf). In 13th European Conference on Spacecraft Structures, Materials & Environmental Testing (Vol. 727).
 
 ## Posters
 
