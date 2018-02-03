@@ -2,7 +2,11 @@
 title: "Online Near Real-Time System Identification on a Supercub SUAS"
 layout: post
 date: 2018-01-30 22:10
-tag: Real-Time Modeling
+tag:
+- real-time
+- modelling
+- flight test
+- suas
 image: /assets/images/Project/jack_cub.jpg
 headerImage: false
 projects: true
@@ -21,10 +25,12 @@ The goal of this project is to develop the capability of performing online syste
 The final version of the system is capable of identifying and modifying vehicle state-space models while the UAV is in the air. Different inputs were tested and multiple flight models were identified using the system.  
 
 ## Key Challenges
-* Porting all the **Matlab** system identification code to a **Python**.
+* Real-time calculating and updating vehicle dynamic models for flight control.
+* Input excitation analysis and precision autopilot control.
+* Porting all the **Matlab** system identification code to a **Python**, coding system identification specific library.
 * Building a customized data acquisition system that supports enough sensors at a high frequency. [DFTI](https://tamu-vscl.github.io/dfti/index.html) was developed and used.
 * Designing a user friendly interface to show the identified model on the Ground Control Station (GCS).
-* Real-time calculating and updating vehicle dynamic models for flight control.
+
 
 A snapshot of the communication GUI is shown in Figure 1
 ![Markdowm Image](/assets/images/Project/Clarkview.png)

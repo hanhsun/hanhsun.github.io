@@ -1,0 +1,61 @@
+---
+title: "GEOSAT seminar series presentation"
+layout: post
+date: 2017-11-10 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- precision ag
+- suas
+- payload directed flight
+category: blog
+author: jacklu
+description: Markdown summary with different options
+# jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
+---
+![Screenshot](/assets/images/Blog/jack_geosat.jpg)
+<figcaption class="caption">Photo by Rachel Holanda</figcaption>
+
+This was a seminar talk I presented at an invited session at [Texas A&M GEOSAT](https://geosat.tamu.edu/). In the one hour talk, I talked about the past, current, and future of conducting earth science related research using the power of UAVs. [Here's](https://geosat.tamu.edu/2017/11/02/seminar-recap-jack-lu-shows-us-that-mapping-crop-development-with-multiple-simultaneously-running-autonomous-vehicles-is-no-easy-feat/) the public release on talk if you're interested in it.
+
+
+## Short Recap
+- [Past-and-Current](#past-n-current)
+- [Challenges](#challenges)
+- [Future](#future)
+
+
+## Past-and-Current
+<div class="side-by-side">
+    <div class="toleft">
+        <img class="image" src="http://localhost:4000/assets/images/Blog/current.png" alt="Alt Text">
+        <figcaption class="caption">Courtesy Vinicius Goecks</figcaption>
+    </div>
+
+    <div class="toright">
+        <p>Currently, precision agricultural and geo-spatial research using UAVs are inefficient and often unreliable. Data are collected on the vehicle at the test site and then downloaded to a storage device.
+
+        The data is then analyzed and mosaiced at a supercomputer. Returning results time can vary from days to weeks.</p>
+
+        Issues include:
+        <ul>
+            <li>Sensors not properly integrated with flight plan, vehicle, and environmental conditions (wind, lighting...etc)</li>
+            <li>Data analysis conducted post flight</li>
+            <li>Large data number without proper data reduction results in mosaic tragedy</li>
+        </ul>
+    </div>
+</div>
+
+<div class="breaker"></div>
+
+The scientific results were promosing, and the results from my group's previous work that were published are listed:
+- [Unmanned Aerial Vehicles for High-Throughput Phenotyping and Agronomic Research-2016](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0159781)
+- [Multispectral and DSLR sensors for assessing crop stress in corn and cotton using fixed-wing unmanned air systems-2016](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9866/1/Multispectral-and-DSLR-sensors-for-assessing-crop-stress-in-corn/10.1117/12.2228894.short?SSO=1)
+- [Development and testing of a customized low-cost unmanned aircraft system based on multispectral and thermal sensing for precision agriculture applications-2017](http://ieeexplore.ieee.org/abstract/document/7991494/)
+
+## Challenges
+- **Reduced data analysis time** to provide in-flight feedback on image quality
+- Environmental feedback and capability to
+
+## Future
+From my past experience, with our current system Precision Agriculture using UAS as an aiding tool is indeed **feasible**,

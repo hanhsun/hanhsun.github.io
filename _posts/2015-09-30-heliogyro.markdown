@@ -1,11 +1,10 @@
 ---
 title: "Precision Agriculture"
 layout: post
-date: 2016-10-30 21:10
+date: 2015-09-30 21:10
 tag:
-- flight test
-- suas
-- precision ag
+- solar-sail
+- simulation
 image: /assets/images/Project/supercub.png
 headerImage: false
 projects: true
@@ -16,7 +15,7 @@ author: jacklu
 externalLink: false
 ---
 
-![Screenshot](/assets/images/Project/grouppic1.jpg)
+![Screenshot](/assets/images/Project/heliogyro_solar_pressure.png)
 
 ## In a Nutshell
 The overall goal of this project is to generate data necessary for effective utilization of UAS-based imaging techniques for crop production and weed management applications. UAS can be equipped to include multi-spectral sensors (3 to 4 bands in the visible and near-infrared/NIR range), hyperspectral sensors (Headwall’s Standard Micro-Hyperspec VNIR 380-1000 nm spectral range), thermal sensors and LIDAR (Light Detection And Ranging), among others. These sensors have a multitude of applications, in areas such as soil, crop, water and weed management in agriculture.
