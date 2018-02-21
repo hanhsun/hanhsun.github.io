@@ -27,4 +27,4 @@ Periodic inspection and assessment of roads, railroads, pipelines, bridges, etc.
 
 ## More Info
 More information on this work can be found in my publications
-- [*Infrastructure Assessment with Small Unmanned Aircraft Systems*](https://link.springer.com/chapter/10.1007/978-3-642-34907-2_43)
+- [*Infrastructure Assessment with Small Unmanned Aircraft Systems*](/assets/doc/Infrastructure_UAS.pdf)
