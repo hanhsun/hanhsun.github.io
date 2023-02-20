@@ -3,6 +3,8 @@ layout: page
 title: Publications
 permalink: /publications/index.html
 ---
+## Google Scholar Page
+* https://scholar.google.com/citations?hl=en&authuser=2&user=2mY93dwAAAAJ
 
 ## Thesis
 
